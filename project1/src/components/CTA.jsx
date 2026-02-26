@@ -20,8 +20,9 @@ const CTA = () => {
       </p>
 
       <div className="mt-4 sm:mt-8">
-        <a href="#" className="inline-block rounded-full bg-yellow-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-yellow-700 focus:ring-3 focus:ring-yellow-400 focus:outline-hidden">
-          Get Yours Today
+       
+            <a href="#" className="block mt-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-pink-500 text-white rounded-md text-center hover:from-pink-500 hover:to-orange-500 transition-all">
+  Get Yours Today
         </a>
       </div>
     </div>

@@ -3,16 +3,16 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div>
-      <nav className="w-full fixed top-0 left-0 z-50 bg-black/70 backdrop-blur-md shadow-md">
+      <nav className="w-full fixed top-0 left-0 z-50 bg-white/100 backdrop-blur-md shadow-md">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div className="flex justify-between items-center h-16">
       
      
-      <div className="flex-shrink-0 text-white font-bold text-xl">
+      <div className="flex-shrink-0 text-black font-bold text-xl">
         Template<span className="text-orange-400">See</span>
       </div>
 
-      <div className="hidden md:flex space-x-8 text-white font-medium">
+      <div className="hidden md:flex space-x-8 text-black font-medium">
         <a href="#" className="hover:text-orange-400 transition">Home</a>
         <a href="#" className="hover:text-orange-400 transition">Templates</a>
         <a href="#" className="hover:text-orange-400 transition">Features</a>
