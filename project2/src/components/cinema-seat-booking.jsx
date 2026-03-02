@@ -66,7 +66,7 @@ const getSeatClassName = (seat) => {
 const renderSeatSection = (seatRow, startIndex,endIndex) => {
     return <div className="flex">
 {seatRow.slice(startIndex,endIndex).map((seat,index)=> {
-    return <div className={getSeatClassName(seat)}>
+    return <div className={getSeatClassName(seat)} >
         {" "}
         {startIndex + index + 1}
     </div>
